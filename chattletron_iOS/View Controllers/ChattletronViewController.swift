@@ -17,8 +17,12 @@ final class ChattletronViewController: ChatViewController {
     let outgoingAvatarOverlap: CGFloat = 17.5
     
     private let dismissButton: UIBarButtonItem = {
-        let uiButton = UIBarButtonItem()
-        uiButton.title = "Close"
+        let uiButton = UIBarButtonItem(
+            title: "Close",
+            style: .plain,
+            target: self,
+            action: #selector(didTapDismissButton)
+        )
         uiButton.tintColor = .white
         return uiButton
     }()
@@ -30,8 +34,8 @@ final class ChattletronViewController: ChatViewController {
         
         updateTitleView(title: "Chattletron", subtitle: "2 Online")
         
-        navigationController?.navigationBar.barTintColor = .systemRed
-        navigationController?.navigationBar.tintColor = .systemRed
+        navigationController?.navigationBar.barTintColor = .systemBlue
+        navigationItem.rightBarButtonItem = dismissButton
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -183,6 +187,10 @@ final class ChattletronViewController: ChatViewController {
         // or InputTextView padding
         messageInputBar.inputTextView.textContainerInset.bottom = 8
         
+    }
+    
+    @objc func didTapDismissButton() {
+        dismiss(animated: true, completion: nil)
     }
     
     // MARK: - Helpers
