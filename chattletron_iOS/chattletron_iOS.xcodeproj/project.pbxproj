@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0972EF32271EA4B20048BF9B /* sound2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0972EF31271EA4B20048BF9B /* sound2.m4a */; };
+		0972EF34271EA5000048BF9B /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0972EF33271EA5000048BF9B /* sound1.m4a */; };
 		09EAAFFF271E77C50076F916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAAFFE271E77C50076F916 /* AppDelegate.swift */; };
 		09EAB001271E77C50076F916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB000271E77C50076F916 /* SceneDelegate.swift */; };
 		09EAB003271E77C50076F916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB002271E77C50076F916 /* ViewController.swift */; };
@@ -14,9 +16,28 @@
 		09EAB008271E77C60076F916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09EAB007271E77C60076F916 /* Assets.xcassets */; };
 		09EAB00B271E77C60076F916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EAB009271E77C60076F916 /* LaunchScreen.storyboard */; };
 		09EAB014271E787B0076F916 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 09EAB013271E787B0076F916 /* MessageKit */; };
+		09EAB016271E7DB80076F916 /* ChattletronViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB015271E7DB80076F916 /* ChattletronViewController.swift */; };
+		09EAB019271E81410076F916 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 09EAB018271E81410076F916 /* Kingfisher */; };
+		09EAB01C271E8AA50076F916 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB01B271E8AA50076F916 /* ChatViewController.swift */; };
+		09EAB01F271E8B6A0076F916 /* CustomMessageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB01E271E8B6A0076F916 /* CustomMessageFlowLayout.swift */; };
+		09EAB024271E8D6D0076F916 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB023271E8D6D0076F916 /* CustomCell.swift */; };
+		09EAB027271E8E100076F916 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB026271E8E100076F916 /* UIViewController+Extensions.swift */; };
+		09EAB02A271E8E820076F916 /* MockSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB029271E8E820076F916 /* MockSocket.swift */; };
+		09EAB02C271E8EAF0076F916 /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB02B271E8EAF0076F916 /* MockUser.swift */; };
+		09EAB02E271E8ECB0076F916 /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB02D271E8ECB0076F916 /* MockMessage.swift */; };
+		09EAB031271E8F3B0076F916 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB030271E8F3B0076F916 /* SampleData.swift */; };
+		09EAB033271E8F8A0076F916 /* Settings+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB032271E8F8A0076F916 /* Settings+UserDefaults.swift */; };
+		09EAB035271E90A40076F916 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB034271E90A40076F916 /* UIColor+Extensions.swift */; };
+		09EAB037271E917C0076F916 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB036271E917C0076F916 /* Lorem.swift */; };
+		09EAB03A271E92AD0076F916 /* BasicAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB039271E92AD0076F916 /* BasicAudioController.swift */; };
+		09EAB03C271E94290076F916 /* CameraInputBarAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB03B271E94290076F916 /* CameraInputBarAccessoryView.swift */; };
+		09EAB03E271E94A00076F916 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB03D271E94A00076F916 /* AlertService.swift */; };
+		09EAB040271E95ED0076F916 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB03F271E95ED0076F916 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0972EF31271EA4B20048BF9B /* sound2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound2.m4a; path = ../../../exampleMessageApp/MessageKit/Example/Sources/Sounds/sound2.m4a; sourceTree = "<group>"; };
+		0972EF33271EA5000048BF9B /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.m4a; path = ../../../exampleMessageApp/MessageKit/Example/Sources/Sounds/sound1.m4a; sourceTree = "<group>"; };
 		09EAAFFB271E77C50076F916 /* chattletron_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chattletron_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EAAFFE271E77C50076F916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09EAB000271E77C50076F916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +46,22 @@
 		09EAB007271E77C60076F916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09EAB00A271E77C60076F916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09EAB00C271E77C60076F916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09EAB015271E7DB80076F916 /* ChattletronViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattletronViewController.swift; sourceTree = "<group>"; };
+		09EAB01B271E8AA50076F916 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		09EAB01E271E8B6A0076F916 /* CustomMessageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageFlowLayout.swift; sourceTree = "<group>"; };
+		09EAB023271E8D6D0076F916 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		09EAB026271E8E100076F916 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		09EAB029271E8E820076F916 /* MockSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSocket.swift; sourceTree = "<group>"; };
+		09EAB02B271E8EAF0076F916 /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
+		09EAB02D271E8ECB0076F916 /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
+		09EAB030271E8F3B0076F916 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		09EAB032271E8F8A0076F916 /* Settings+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+UserDefaults.swift"; sourceTree = "<group>"; };
+		09EAB034271E90A40076F916 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		09EAB036271E917C0076F916 /* Lorem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
+		09EAB039271E92AD0076F916 /* BasicAudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAudioController.swift; sourceTree = "<group>"; };
+		09EAB03B271E94290076F916 /* CameraInputBarAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraInputBarAccessoryView.swift; sourceTree = "<group>"; };
+		09EAB03D271E94A00076F916 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		09EAB03F271E95ED0076F916 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EAB019271E81410076F916 /* Kingfisher in Frameworks */,
 				09EAB014271E787B0076F916 /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +96,14 @@
 		09EAAFFD271E77C50076F916 /* chattletron_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				09EAB041271EA3790076F916 /* Sounds */,
+				09EAB038271E92840076F916 /* AudioController */,
+				09EAB02F271E8F190076F916 /* Data Generation */,
+				09EAB028271E8E640076F916 /* Models */,
+				09EAB025271E8DDD0076F916 /* Extensions */,
+				09EAB022271E8D5D0076F916 /* Views */,
+				09EAB01D271E8B240076F916 /* Layout */,
+				09EAB01A271E8A6E0076F916 /* View Controllers */,
 				09EAAFFE271E77C50076F916 /* AppDelegate.swift */,
 				09EAB000271E77C50076F916 /* SceneDelegate.swift */,
 				09EAB002271E77C50076F916 /* ViewController.swift */,
@@ -67,6 +113,80 @@
 				09EAB00C271E77C60076F916 /* Info.plist */,
 			);
 			path = chattletron_iOS;
+			sourceTree = "<group>";
+		};
+		09EAB01A271E8A6E0076F916 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB015271E7DB80076F916 /* ChattletronViewController.swift */,
+				09EAB01B271E8AA50076F916 /* ChatViewController.swift */,
+				09EAB03F271E95ED0076F916 /* NavigationController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		09EAB01D271E8B240076F916 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB01E271E8B6A0076F916 /* CustomMessageFlowLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		09EAB022271E8D5D0076F916 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB023271E8D6D0076F916 /* CustomCell.swift */,
+				09EAB03B271E94290076F916 /* CameraInputBarAccessoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09EAB025271E8DDD0076F916 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB026271E8E100076F916 /* UIViewController+Extensions.swift */,
+				09EAB032271E8F8A0076F916 /* Settings+UserDefaults.swift */,
+				09EAB034271E90A40076F916 /* UIColor+Extensions.swift */,
+				09EAB03D271E94A00076F916 /* AlertService.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09EAB028271E8E640076F916 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB029271E8E820076F916 /* MockSocket.swift */,
+				09EAB02B271E8EAF0076F916 /* MockUser.swift */,
+				09EAB02D271E8ECB0076F916 /* MockMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09EAB02F271E8F190076F916 /* Data Generation */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB030271E8F3B0076F916 /* SampleData.swift */,
+				09EAB036271E917C0076F916 /* Lorem.swift */,
+			);
+			path = "Data Generation";
+			sourceTree = "<group>";
+		};
+		09EAB038271E92840076F916 /* AudioController */ = {
+			isa = PBXGroup;
+			children = (
+				09EAB039271E92AD0076F916 /* BasicAudioController.swift */,
+			);
+			path = AudioController;
+			sourceTree = "<group>";
+		};
+		09EAB041271EA3790076F916 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0972EF33271EA5000048BF9B /* sound1.m4a */,
+				0972EF31271EA4B20048BF9B /* sound2.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +207,7 @@
 			name = chattletron_iOS;
 			packageProductDependencies = (
 				09EAB013271E787B0076F916 /* MessageKit */,
+				09EAB018271E81410076F916 /* Kingfisher */,
 			);
 			productName = chattletron_iOS;
 			productReference = 09EAAFFB271E77C50076F916 /* chattletron_iOS.app */;
@@ -118,6 +239,7 @@
 			mainGroup = 09EAAFF2271E77C40076F916;
 			packageReferences = (
 				09EAB012271E787B0076F916 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				09EAB017271E81410076F916 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 09EAAFFC271E77C50076F916 /* Products */;
 			projectDirPath = "";
@@ -133,7 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0972EF34271EA5000048BF9B /* sound1.m4a in Resources */,
 				09EAB00B271E77C60076F916 /* LaunchScreen.storyboard in Resources */,
+				0972EF32271EA4B20048BF9B /* sound2.m4a in Resources */,
 				09EAB008271E77C60076F916 /* Assets.xcassets in Resources */,
 				09EAB006271E77C50076F916 /* Main.storyboard in Resources */,
 			);
@@ -146,9 +270,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EAB02C271E8EAF0076F916 /* MockUser.swift in Sources */,
+				09EAB037271E917C0076F916 /* Lorem.swift in Sources */,
 				09EAB003271E77C50076F916 /* ViewController.swift in Sources */,
+				09EAB016271E7DB80076F916 /* ChattletronViewController.swift in Sources */,
+				09EAB01F271E8B6A0076F916 /* CustomMessageFlowLayout.swift in Sources */,
 				09EAAFFF271E77C50076F916 /* AppDelegate.swift in Sources */,
+				09EAB02A271E8E820076F916 /* MockSocket.swift in Sources */,
+				09EAB027271E8E100076F916 /* UIViewController+Extensions.swift in Sources */,
+				09EAB031271E8F3B0076F916 /* SampleData.swift in Sources */,
+				09EAB01C271E8AA50076F916 /* ChatViewController.swift in Sources */,
+				09EAB024271E8D6D0076F916 /* CustomCell.swift in Sources */,
 				09EAB001271E77C50076F916 /* SceneDelegate.swift in Sources */,
+				09EAB040271E95ED0076F916 /* NavigationController.swift in Sources */,
+				09EAB035271E90A40076F916 /* UIColor+Extensions.swift in Sources */,
+				09EAB03C271E94290076F916 /* CameraInputBarAccessoryView.swift in Sources */,
+				09EAB03A271E92AD0076F916 /* BasicAudioController.swift in Sources */,
+				09EAB033271E8F8A0076F916 /* Settings+UserDefaults.swift in Sources */,
+				09EAB03E271E94A00076F916 /* AlertService.swift in Sources */,
+				09EAB02E271E8ECB0076F916 /* MockMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +518,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		09EAB017271E81410076F916 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -385,6 +533,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 09EAB012271E787B0076F916 /* XCRemoteSwiftPackageReference "MessageKit" */;
 			productName = MessageKit;
+		};
+		09EAB018271E81410076F916 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09EAB017271E81410076F916 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
