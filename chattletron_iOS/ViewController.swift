@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let chattletronNavigationController: UINavigationController = {
+    private let chattletronNavigationController: UINavigationController = {
         let chattletronViewController = ChattletronViewController()
         let uiNavigationController = UINavigationController(rootViewController: chattletronViewController)
         uiNavigationController.modalPresentationStyle = .fullScreen

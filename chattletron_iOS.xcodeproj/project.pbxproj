@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0972EF37271EB9670048BF9B /* sound2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0972EF35271EB9670048BF9B /* sound2.m4a */; };
-		0972EF38271EB9670048BF9B /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0972EF36271EB9670048BF9B /* sound1.m4a */; };
+		0972EF3E271EBC960048BF9B /* sound2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0972EF3C271EBC960048BF9B /* sound2.m4a */; };
+		0972EF3F271EBC960048BF9B /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0972EF3D271EBC960048BF9B /* sound1.m4a */; };
 		09EAAFFF271E77C50076F916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAAFFE271E77C50076F916 /* AppDelegate.swift */; };
 		09EAB001271E77C50076F916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB000271E77C50076F916 /* SceneDelegate.swift */; };
 		09EAB003271E77C50076F916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAB002271E77C50076F916 /* ViewController.swift */; };
@@ -36,8 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0972EF35271EB9670048BF9B /* sound2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound2.m4a; path = ../../../../.Trash/exampleMessageApp/MessageKit/Example/Sources/Sounds/sound2.m4a; sourceTree = "<group>"; };
-		0972EF36271EB9670048BF9B /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound1.m4a; path = ../../../../.Trash/exampleMessageApp/MessageKit/Example/Sources/Sounds/sound1.m4a; sourceTree = "<group>"; };
+		0972EF3C271EBC960048BF9B /* sound2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound2.m4a; sourceTree = "<group>"; };
+		0972EF3D271EBC960048BF9B /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
 		09EAAFFB271E77C50076F916 /* chattletron_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chattletron_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EAAFFE271E77C50076F916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09EAB000271E77C50076F916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0972EF3B271EBC7F0048BF9B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0972EF3D271EBC960048BF9B /* sound1.m4a */,
+				0972EF3C271EBC960048BF9B /* sound2.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		09EAAFF2271E77C40076F916 = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +105,7 @@
 		09EAAFFD271E77C50076F916 /* chattletron_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				09EAB041271EA3790076F916 /* Sounds */,
+				0972EF3B271EBC7F0048BF9B /* Sounds */,
 				09EAB038271E92840076F916 /* AudioController */,
 				09EAB02F271E8F190076F916 /* Data Generation */,
 				09EAB028271E8E640076F916 /* Models */,
@@ -180,15 +189,6 @@
 			path = AudioController;
 			sourceTree = "<group>";
 		};
-		09EAB041271EA3790076F916 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				0972EF36271EB9670048BF9B /* sound1.m4a */,
-				0972EF35271EB9670048BF9B /* sound2.m4a */,
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,9 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0972EF38271EB9670048BF9B /* sound1.m4a in Resources */,
+				0972EF3F271EBC960048BF9B /* sound1.m4a in Resources */,
 				09EAB00B271E77C60076F916 /* LaunchScreen.storyboard in Resources */,
-				0972EF37271EB9670048BF9B /* sound2.m4a in Resources */,
+				0972EF3E271EBC960048BF9B /* sound2.m4a in Resources */,
 				09EAB008271E77C60076F916 /* Assets.xcassets in Resources */,
 				09EAB006271E77C50076F916 /* Main.storyboard in Resources */,
 			);

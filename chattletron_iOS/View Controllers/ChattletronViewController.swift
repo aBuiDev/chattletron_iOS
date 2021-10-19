@@ -30,8 +30,8 @@ final class ChattletronViewController: ChatViewController {
         
         updateTitleView(title: "Chattletron", subtitle: "2 Online")
         
-        navigationController?.navigationBar.barTintColor = .systemBlue
-        navigationController?.navigationBar.tintColor = .systemBlue
+        navigationController?.navigationBar.barTintColor = .systemRed
+        navigationController?.navigationBar.tintColor = .systemRed
     }
     
     override func viewDidAppear(_ animated: Bool) {
