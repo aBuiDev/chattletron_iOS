@@ -16,12 +16,22 @@ final class ChattletronViewController: ChatViewController {
         
     let outgoingAvatarOverlap: CGFloat = 17.5
     
+    private let dismissButton: UIBarButtonItem = {
+        let uiButton = UIBarButtonItem()
+        uiButton.title = "Close"
+        uiButton.tintColor = .white
+        return uiButton
+    }()
+    
     override func viewDidLoad() {
         messagesCollectionView = MessagesCollectionView(frame: .zero, collectionViewLayout: CustomMessagesFlowLayout())
         messagesCollectionView.register(CustomCell.self)
         super.viewDidLoad()
         
-        updateTitleView(title: "MessageKit", subtitle: "2 Online")
+        updateTitleView(title: "Chattletron", subtitle: "2 Online")
+        
+        navigationController?.navigationBar.barTintColor = .systemBlue
+        navigationController?.navigationBar.tintColor = .systemBlue
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -192,7 +202,7 @@ final class ChattletronViewController: ChatViewController {
     }
     
     func setTypingIndicatorViewHidden(_ isHidden: Bool, performUpdates updates: (() -> Void)? = nil) {
-        updateTitleView(title: "MessageKit", subtitle: isHidden ? "2 Online" : "Typing...")
+        updateTitleView(title: "Chattletron", subtitle: isHidden ? "2 Online" : "Typing...")
         setTypingIndicatorViewHidden(isHidden, animated: true, whilePerforming: updates) { [weak self] success in
             if success, self?.isLastSectionVisible() == true {
                 self?.messagesCollectionView.scrollToLastItem(animated: true)
